@@ -523,6 +523,58 @@
     background-color: transparent;
     filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.75));
 }
+/* Dewey */
+#carouselDewey .carousel-control-prev,
+#carouselDewey .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#carouselDewey .carousel-control-prev {
+    border-radius: 0 10px 10px 0;
+}
+#carouselDewey .carousel-control-next {
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.75);
+    border-radius: 10px 0 0 10px;
+}
+#carouselDewey .carousel-control-prev-icon,
+#carouselDewey .carousel-control-next-icon {
+    background-color: transparent;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.75));
+}
+/* Windjammer */
+#carouselWindjammer .carousel-control-prev,
+#carouselWindjammer .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#carouselWindjammer .carousel-control-prev {
+    border-radius: 0 10px 10px 0;
+}
+#carouselWindjammer .carousel-control-next {
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.75);
+    border-radius: 10px 0 0 10px;
+}
+#carouselWindjammer .carousel-control-prev-icon,
+#carouselWindjammer .carousel-control-next-icon {
+    background-color: transparent;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.75));
+}
 /* Carousels */
 /* Custom Button */
 .btn-primary {
