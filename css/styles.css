@@ -419,6 +419,110 @@
     background-color: transparent;
     filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.75));
 }
+/* Beaches */
+#carouselBeaches .carousel-control-prev,
+#carouselBeaches .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#carouselBeaches .carousel-control-prev {
+    border-radius: 0 10px 10px 0;
+}
+#carouselBeaches .carousel-control-next {
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.75);
+    border-radius: 10px 0 0 10px;
+}
+#carouselBeaches .carousel-control-prev-icon,
+#carouselBeaches .carousel-control-next-icon {
+    background-color: transparent;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.75));
+}
+/* Boardwalk */
+#carouselBoardwalk .carousel-control-prev,
+#carouselBoardwalk .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#carouselBoardwalk .carousel-control-prev {
+    border-radius: 0 10px 10px 0;
+}
+#carouselBoardwalk .carousel-control-next {
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.75);
+    border-radius: 10px 0 0 10px;
+}
+#carouselBoardwalk .carousel-control-prev-icon,
+#carouselBoardwalk .carousel-control-next-icon {
+    background-color: transparent;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.75));
+}
+/* Sea */
+#carouselSea .carousel-control-prev,
+#carouselSea .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#carouselSea .carousel-control-prev {
+    border-radius: 0 10px 10px 0;
+}
+#carouselSea .carousel-control-next {
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.75);
+    border-radius: 10px 0 0 10px;
+}
+#carouselSea .carousel-control-prev-icon,
+#carouselSea .carousel-control-next-icon {
+    background-color: transparent;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.75));
+}
+/* Food */
+#carouselFood .carousel-control-prev,
+#carouselFood .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#carouselFood .carousel-control-prev {
+    border-radius: 0 10px 10px 0;
+}
+#carouselFood .carousel-control-next {
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.75);
+    border-radius: 10px 0 0 10px;
+}
+#carouselFood .carousel-control-prev-icon,
+#carouselFood .carousel-control-next-icon {
+    background-color: transparent;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.75));
+}
 /* Carousels */
 /* Custom Button */
 .btn-primary {
