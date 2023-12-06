@@ -1,6 +1,6 @@
 /* Background */
 .bg-dark-pink{
-    background-color: #961442 !important;
+    background-color: #961442;
 }
 /* Menu Buttons */
 .nav-link{
@@ -30,7 +30,7 @@
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-underline-offset: 10px;
-    color: #EADE8B !important;
+    color: #EADE8B !important
 }
 /* Mastheads */
 #masthead {
@@ -234,6 +234,188 @@
 }
 #carouselOma .carousel-control-prev-icon,
 #carouselOma .carousel-control-next-icon {
+    background-color: transparent;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.75));
+}
+/* Destin */
+#carouselDestin .carousel-control-prev,
+#carouselDestin .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#carouselDestin .carousel-control-prev {
+    border-radius: 0 10px 10px 0;
+}
+#carouselDestin .carousel-control-next {
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.75);
+    border-radius: 10px 0 0 10px;
+}
+#carouselDestin .carousel-control-prev-icon,
+#carouselDestin .carousel-control-next-icon {
+    background-color: transparent;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.75));
+}
+/* Jacksonville */ 
+#carouselJacksonville .carousel-control-prev,
+#carouselJacksonville .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#carouselJacksonville .carousel-control-prev {
+    border-radius: 0 10px 10px 0;
+}
+#carouselJacksonville .carousel-control-next {
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.75);
+    border-radius: 10px 0 0 10px;
+}
+#carouselJacksonville .carousel-control-prev-icon,
+#carouselJacksonville .carousel-control-next-icon {
+    background-color: transparent;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.75));
+}
+/* Navarre */
+#carouselNavarre .carousel-control-prev,
+#carouselNavarre .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#carouselNavarre .carousel-control-prev {
+    border-radius: 0 10px 10px 0;
+}
+#carouselNavarre .carousel-control-next {
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.75);
+    border-radius: 10px 0 0 10px;
+}
+#carouselNavarre .carousel-control-prev-icon,
+#carouselNavarre .carousel-control-next-icon {
+    background-color: transparent;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.75));
+}
+/* Orlando */
+#carouselOrlando .carousel-control-prev,
+#carouselOrlando .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#carouselOrlando .carousel-control-prev {
+    border-radius: 0 10px 10px 0;
+}
+#carouselOrlando .carousel-control-next {
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.75);
+    border-radius: 10px 0 0 10px;
+}
+#carouselOrlando .carousel-control-prev-icon,
+#carouselOrlando .carousel-control-next-icon {
+    background-color: transparent;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.75));
+}
+/* Panama */
+#carouselPanama .carousel-control-prev,
+#carouselPanama .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#carouselPanama .carousel-control-prev {
+    border-radius: 0 10px 10px 0;
+}
+#carouselPanama .carousel-control-next {
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.75);
+    border-radius: 10px 0 0 10px;
+}
+#carouselPanama .carousel-control-prev-icon,
+#carouselPanama .carousel-control-next-icon {
+    background-color: transparent;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.75));
+}
+/* Pensacola */
+#carouselPensacola .carousel-control-prev,
+#carouselPensacola .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#carouselPensacola .carousel-control-prev {
+    border-radius: 0 10px 10px 0;
+}
+#carouselPensacola .carousel-control-next {
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.75);
+    border-radius: 10px 0 0 10px;
+}
+#carouselPensacola .carousel-control-prev-icon,
+#carouselPensacola .carousel-control-next-icon {
+    background-color: transparent;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.75));
+}
+/* Stpetersburg */
+#carouselStpetersburg .carousel-control-prev,
+#carouselStpetersburg .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#carouselStpetersburg .carousel-control-prev {
+    border-radius: 0 10px 10px 0;
+}
+#carouselStpetersburg .carousel-control-next {
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.75);
+    border-radius: 10px 0 0 10px;
+}
+#carouselStpetersburg .carousel-control-prev-icon,
+#carouselStpetersburg .carousel-control-next-icon {
     background-color: transparent;
     filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.75));
 }
